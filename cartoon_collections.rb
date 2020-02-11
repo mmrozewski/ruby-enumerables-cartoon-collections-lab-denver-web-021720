@@ -18,6 +18,5 @@ end
 def find_the_cheese(array)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
-  commonality = (array & cheese_types).pop
-
+  commonality = (array & cheese_types).first
 end
