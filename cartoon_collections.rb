@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarf_array)
   hash = {}
-  %w(dwarf_array).each_with_index do { |value, index|
+  %w(dwarf_array).each_with_index do |value, index|
     hash[value] = index
-  }
+  
   end
 end
 
