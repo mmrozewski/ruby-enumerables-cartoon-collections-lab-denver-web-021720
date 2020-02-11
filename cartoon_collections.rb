@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarf_array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  # Your code here
+  lunch_menu.map{|item| "#{item}!" }
 end
 
 def long_planeteer_calls# code an argument here
