@@ -1,7 +1,6 @@
-def roll_call_dwarves(dwarf_array)
-  newarr = []
+def roll_call_dwarves(&w(dwarf_array))
   dwarf_array.each_with_index do |value, index|
-     
+     puts "#{index} #{value}"
   end
 end
 
