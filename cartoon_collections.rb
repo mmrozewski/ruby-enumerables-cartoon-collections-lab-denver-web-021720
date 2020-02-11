@@ -1,6 +1,7 @@
 def roll_call_dwarves(dwarf_array)
+  newarr = []
   dwarf_array.each_with_index do |value, index|
-    puts 
+     
   end
 end
 
