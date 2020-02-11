@@ -18,6 +18,6 @@ end
 def find_the_cheese(array)
   i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
-  return array.find |item| item.include?("chedder" || "gouda" || "camembert")
+  commonality = array & cheese_types
 
 end
