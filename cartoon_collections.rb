@@ -16,8 +16,8 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  i = 0
+  commonality = []
   cheese_types = ["cheddar", "gouda", "camembert"]
-  commonality[0] = array & cheese_types
+  commonality = array & cheese_types
 
 end
