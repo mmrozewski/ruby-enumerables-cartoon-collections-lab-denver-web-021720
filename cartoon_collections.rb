@@ -18,6 +18,6 @@ end
 def find_the_cheese(array)
   commonality = []
   cheese_types = ["cheddar", "gouda", "camembert"]
-  commonality = array & cheese_types
+  commonality[0] = array & cheese_types
 
 end
